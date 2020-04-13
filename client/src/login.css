@@ -45,12 +45,14 @@ body {
 
 .btn {
     background-color: #b5bdc4b2;
+    background-color: #491b187e;
     border-color: #b5bdc4e8;
     font-size: 1.6em;
   }
   
   .navbar {
     background-color: #b5bdc47e;
+    background-color: #491b187e;
     border-color: #3e5569e8;
     color: #000000b2;
     
@@ -71,8 +73,9 @@ body {
 
 
   .btn:hover {
-    background-color: #6e7e8d8a;
+    background-color:rgba(255, 255, 255, 0.452);
     border-color: #3e55698a;
+    color: #491b187e;;
   }
 
   #password-input {
