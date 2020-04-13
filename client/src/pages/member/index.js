@@ -1,5 +1,5 @@
 import React from "react";
-import LogOut from '../components/logOutBut'
+import LogOut from '../../components/logOutBut'
 
 function Member() {
 

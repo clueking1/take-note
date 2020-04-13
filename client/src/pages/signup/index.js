@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
-import API from '../utils/API'
-import Navbar from '../components/navBar'
+import API from '../../utils/API'
+import Navbar from '../../components/navBar'
 
 function Home() {
 

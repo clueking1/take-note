@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
-import Navbar from '../components/navBar'
-import API from '../utils/API'
-import LogBut from '../components/logBut'
+import Navbar from '../../components/navBar'
+import API from '../../utils/API'
+import LogBut from '../../components/logBut'
 import './home.css'
 
 function Home() {
