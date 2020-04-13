@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
 html,
 body {
   height: 100%;
-  background-color: #b7bfc5
+  font-family: 'Caveat', cursive;
 }
 
 
@@ -42,19 +44,21 @@ body {
 }
 
 .btn {
-    background-color: #3e5569e8;
-    border-color: #3e5569e8;
- 
+    background-color: #b5bdc4b2;
+    border-color: #b5bdc4e8;
+    font-size: 1.6em;
   }
   
   .navbar {
-    background-color: #3e5569;
+    background-color: #b5bdc47e;
     border-color: #3e5569e8;
     
   }
-
+  .navbar-brand {
+    font-size: 1.6em;
+  }
   .btn:hover {
-    background-color: #3e55698a;
+    background-color: #6e7e8d8a;
     border-color: #3e55698a;
   }
 
@@ -64,4 +68,32 @@ body {
 
   #passwordCon-input {
     margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .form-signin {
+
+    margin-top: 12%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .form-signin {
+
+    margin-top: 14%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .form-signin {
+
+    margin-top: 20%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .form-signin {
+
+    margin-top: 24%;
+  }
 }

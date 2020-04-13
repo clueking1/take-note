@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import Navbar from '../components/navBar'
 import API from '../utils/API'
 import LogBut from '../components/logBut'
-
+import './home.css'
 
 function Home() {
 
@@ -29,9 +29,11 @@ function Home() {
      <div>
         <Navbar /> 
     </div>
+
         <div>
             <form className="loginForm form-signin" onSubmit={handleSubmit}>
-            <h1 className="h3 mb-3 font-weight-normal">Sign in</h1>
+            <h1 className="headerName">Take Note</h1>
+            <h4><i className="subName">Of Whats Most Important</i></h4>
                 <input 
                 className="form-control"
                 type="text"

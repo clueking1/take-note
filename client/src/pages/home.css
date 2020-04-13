@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+body {
+    background-image:url('../imgs/tenor.gif'); 
+    background-repeat:no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.headerName {
+    color: #ffffff;
+    font-family: 'Caveat', cursive;
+    font-size: 3.2em;
+}
+
+.subName {
+    color: #ffffff;
+    font-family: 'Caveat', cursive;
+}
