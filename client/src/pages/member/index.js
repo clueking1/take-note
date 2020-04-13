@@ -1,12 +1,19 @@
 import React from "react";
-import LogOut from '../../components/logOutBut'
+import UnderLineNav from '../../components/underLineNav'
+import Navbar from '../../components/navBar'
+import "./member.css"
+
+
 
 function Member() {
 
     return (
+  
         <div>
-            <p>hello <span className="name"></span></p>
-            <LogOut />
+            
+            <Navbar />
+
+            <UnderLineNav />
         </div>
     )   
 }

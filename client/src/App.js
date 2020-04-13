@@ -42,9 +42,9 @@ function PrivateRoute({ children, ...rest }) {
         <Route  path="/signup">
           <Signup />
         </Route>
-        <PrivateRoute  path="/member">
+        <Route  path="/member">
           <Member />
-        </PrivateRoute>
+        </Route>
         </Switch>
       </div>
     </Router>

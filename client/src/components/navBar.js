@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar () {
     return (
-        <nav className="navbar navbar-expand-sm">
+        <nav className="navbar navbar-expand-sm fixed-top">
             <a className="navbar-brand" href="/">
                 TN
             </a>

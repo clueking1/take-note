@@ -5,20 +5,18 @@ import fakeAuth from '../utils/authContext'
 function AuthButton() {
     let history = useHistory();
   
-    return fakeAuth.isAuthenticated ? (
-      <p>
-        Welcome!{" "}
+    return  (
+
         <button
           onClick={() => {
             fakeAuth.signout(() => history.push("/"));
           }}
+          className="nav-link"
         >
           Sign out
         </button>
-      </p>
-    ) : (
-      <p>You are not logged in.</p>
-    );
+
+    ) 
   }
 
   export default AuthButton
