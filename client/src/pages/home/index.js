@@ -25,7 +25,7 @@ function Home() {
       };
 
  return (
-     <div>
+     <div className="homeWrapper">
      <div>
         <Navbar /> 
     </div>

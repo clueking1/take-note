@@ -1,7 +1,7 @@
 import React from "react";
-import UnderLineNav from '../../components/underLineNav'
+import SideNav from '../../components/sideNavComps/sideNav'
 import Navbar from '../../components/navBar'
-import DisplayNotes from '../../components/displayNotes'
+
 
 import "./member.css"
 
@@ -12,13 +12,13 @@ function Member() {
 
     return (
   
-        <div>
-            
+        <div className="memberWrapper">
+            <div>
             <Navbar />
-
-            <UnderLineNav />
-
-            <DisplayNotes />
+            </div>
+            <div className="sideWrap">
+            <SideNav />
+            </div>
             
         </div>
     )   

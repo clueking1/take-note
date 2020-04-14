@@ -7,9 +7,7 @@ body {
 }
 
 
-body {
-    padding-bottom: 20px;
-  }
+
 
 .form-signin {
   width: 100%;
@@ -52,7 +50,7 @@ body {
   
   .navbar {
     background-color: #b5bdc47e;
-    background-color: #491b187e;
+    background-color: #643b39;
     border-color: #3e5569e8;
     color: #000000b2;
     

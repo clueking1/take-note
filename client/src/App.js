@@ -31,7 +31,7 @@ function PrivateRoute({ children, ...rest }) {
   return (
    
     <Router>
-      <div>
+      <div className='routeDiv'>
         <Switch>
         <Route exact path="/">
           <Home />
