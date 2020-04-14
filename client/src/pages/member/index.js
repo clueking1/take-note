@@ -16,7 +16,7 @@ function Member() {
         document.body.style.background =  "#b5bdc43d"
 
         return () => {
-            setTimeout(function(){ window.location.reload(false); }, 0);
+             window.location.reload(false)
         }
 
     })
