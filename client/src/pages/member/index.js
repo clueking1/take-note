@@ -14,6 +14,11 @@ function Member() {
     useEffect(() => {
         document.body.style.backgroundImage = "url()"
         document.body.style.background =  "#b5bdc43d"
+
+        return () => {
+            setTimeout(function(){ window.location.reload(false); }, 0);
+        }
+
     })
 
 
