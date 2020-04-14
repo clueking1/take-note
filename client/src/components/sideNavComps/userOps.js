@@ -1,4 +1,5 @@
 import React from 'react' 
+import LogOutBut from '../logOutBut'
 
 function UserOps() {
     return (
@@ -29,13 +30,13 @@ function UserOps() {
              </li>
 
              <li className="nav-item">
-                <a className="a" href="/logout">
-                <span data-feather="home"></span>
-                Sign Out <span className="sr-only">(current)</span>
-                </a>
+               <LogOutBut />
              </li>
 
-            </ul>
+             
+             </ul>
+             
+             
         </div>
     )
 }

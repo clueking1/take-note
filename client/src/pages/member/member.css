@@ -29,17 +29,19 @@ body {
 
 .sideContainer {
   background-color: rgba(219, 219, 219, 0.61);
-  width: 20%;
+  width: 334px;
   height: 100%;
   border-right: 1px solid gray;
-  float: left;
+  
   
 }
 
 .searchDiv {
   width: 80%;
-  float: left;
+  position: absolute;
   padding-top: 65px;
+  top: 0;
+  margin-left: 334px;
 }
 
 .topHalf {
@@ -61,6 +63,13 @@ ul {
 
 }
 
+.nav-link {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
 .a {
   width: 100px;
   color: black;
@@ -73,11 +82,16 @@ a:hover {
   color: rgba(0, 0, 0, 0.315);
 }
 
+button:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.315);
+}
+
 .nav-item {
   padding: 20px;
   width: 80%;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.445) ;
-  
+  text-align: center;
+
 }
 
 .exploreTitle {
@@ -92,4 +106,8 @@ a:hover {
   background-color: rgb(255, 255, 255);
   border-radius: 5%;
   padding: 10px;
+}
+
+.search {
+  padding: 26px;
 }
