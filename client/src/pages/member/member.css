@@ -41,3 +41,29 @@ body {
   float: left;
   padding-top: 65px;
 }
+
+.topHalf {
+  text-decoration: none;
+  padding-top: 65px;
+  height: 50%;
+}
+
+.botHalf {
+  text-decoration: none;
+  
+  height: 50%;
+}
+
+.exploreTitle {
+  border: 1px solid grey;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+  padding: 1.5px;
+}
+
+.inspirTitle {
+  border: 1px solid grey;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+  padding: 1.5px;
+}
