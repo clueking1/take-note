@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
@@ -5,8 +6,7 @@ body {
 
 body {
   
-  background-image: url();
-  background-color: #b5bdc43d;
+  
   height: 100%;
   margin-bottom: 0;
 }
@@ -28,7 +28,8 @@ body {
 }
 
 .sideContainer {
-  background-color: rgba(219, 219, 219, 0.61);
+  background-color: rgb(255, 255, 255);
+  background-color: #0c0c3321;
   width: 334px;
   height: 100%;
   border-right: 1px solid gray;
@@ -74,12 +75,13 @@ ul {
   width: 100px;
   color: black;
   padding: 10px;
- 
+  
 }
 
 a:hover {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.315);
+ 
 }
 
 button:hover {
@@ -91,7 +93,7 @@ button:hover {
   padding: 20px;
   width: 80%;
   text-align: center;
-
+  
 }
 
 .exploreTitle {
@@ -99,6 +101,7 @@ button:hover {
   background-color: rgb(255, 255, 255);
   border-radius: 5%;
   padding: 10px;
+  font-family: 'Caveat', cursive;
 }
 
 .inspirTitle {
@@ -106,6 +109,7 @@ button:hover {
   background-color: rgb(255, 255, 255);
   border-radius: 5%;
   padding: 10px;
+  font-family: 'Caveat', cursive;
 }
 
 .search {

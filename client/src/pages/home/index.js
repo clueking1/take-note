@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import Navbar from '../../components/navBar'
 import API from '../../utils/API'
 import LogBut from '../../components/logBut'
@@ -23,6 +23,7 @@ function Home() {
 
         
       };
+
 
  return (
      <div className="homeWrapper">
