@@ -6,7 +6,7 @@ body {
 body {
   
   background-image: url();
-  background-color: #b5bdc4b2;
+  background-color: #b5bdc43d;
   height: 100%;
   margin-bottom: 0;
 }
@@ -28,8 +28,16 @@ body {
 }
 
 .sideContainer {
-  background-color: rgba(169, 172, 171, 0.61);
+  background-color: rgba(219, 219, 219, 0.61);
   width: 20%;
   height: 100%;
   border-right: 1px solid gray;
+  float: left;
+  
+}
+
+.searchDiv {
+  width: 80%;
+  float: left;
+  padding-top: 65px;
 }
