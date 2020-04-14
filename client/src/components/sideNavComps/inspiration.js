@@ -8,7 +8,7 @@ function Inspiration() {
 
             <ul>
                 <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="a" href="#">
                 <span data-feather="home"></span>
                 Dashboard <span className="sr-only">(current)</span>
                 </a>

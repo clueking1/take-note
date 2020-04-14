@@ -43,27 +43,53 @@ body {
 }
 
 .topHalf {
-  text-decoration: none;
+  list-style-type: none;
   padding-top: 65px;
   height: 50%;
 }
 
 .botHalf {
-  text-decoration: none;
+  list-style-type: none;
   
   height: 50%;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+
+
+}
+
+.a {
+  width: 100px;
+  color: black;
+  padding: 10px;
+ 
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.315);
+}
+
+.nav-item {
+  padding: 20px;
+  width: 80%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.445) ;
+  
 }
 
 .exploreTitle {
   border: 1px solid grey;
   background-color: rgb(255, 255, 255);
   border-radius: 5%;
-  padding: 1.5px;
+  padding: 10px;
 }
 
 .inspirTitle {
   border: 1px solid grey;
   background-color: rgb(255, 255, 255);
   border-radius: 5%;
-  padding: 1.5px;
+  padding: 10px;
 }

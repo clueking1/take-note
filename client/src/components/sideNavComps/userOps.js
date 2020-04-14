@@ -8,11 +8,33 @@ function UserOps() {
 
             <ul>
                 <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="a" href="#">
                 <span data-feather="home"></span>
-                Dashboard <span className="sr-only">(current)</span>
+                Create Note <span className="sr-only">(current)</span>
                 </a>
              </li>
+
+             <li className="nav-item">
+                <a className="a" href="#">
+                <span data-feather="home"></span>
+                View Folders <span className="sr-only">(current)</span>
+                </a>
+             </li>
+
+             <li className="nav-item">
+                <a className="a" href="#">
+                <span data-feather="home"></span>
+                View Notes <span className="sr-only">(current)</span>
+                </a>
+             </li>
+
+             <li className="nav-item">
+                <a className="a" href="/logout">
+                <span data-feather="home"></span>
+                Sign Out <span className="sr-only">(current)</span>
+                </a>
+             </li>
+
             </ul>
         </div>
     )
